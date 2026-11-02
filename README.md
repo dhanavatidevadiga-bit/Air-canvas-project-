@@ -1,31 +1,29 @@
+# Air Canvas Project
 
-Air Canvas Using Python
-Project Description
-Air Canvas is a computer vision project that allows users to draw in the air using hand gestures in front of a webcam.
-Technologies Used
-Python
-OpenCV
-MediaPipe
-NumPy
-Features
-Draw using hand gestures
-Multiple drawing colours
-Eraser option
-Undo functionalit
-Redo functionality
-Save drawings
-Hardware Requirements
-Laptop or Desktop
-Webcam
-Software Requirements
-Python 3.x
-OpenCV
-MediaPipe
-NumPy
-How to Run
-Install the required Python libraries.
-Run the Python file.
-Show your hand in front of the webcam.
-Use hand gestures to draw.
-Developed By
+Draw in the air using hand gestures in front of a webcam.
+
+## Technologies Used
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+
+## Features
+- Draw using hand gestures
+- Multiple drawing colours
+- Eraser option
+- Undo / Redo functionality
+- Save drawing
+
+## How to Run
+pip install opencv-python mediapipe numpy
+python air_canvas.py
+
+## How it Works
+1. Webcam captures video
+2. MediaPipe tracks hand landmarks
+3. Index finger up = Draw
+4. Two fingers up = Selection mode
+
+## Developed By
 Dhanavati Narayan Devadiga
