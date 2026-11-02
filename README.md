@@ -1,4 +1,4 @@
-Writing
+
 Air Canvas Using Python
 Project Description
 Air Canvas is a computer vision project that allows users to draw in the air using hand gestures in front of a webcam.
